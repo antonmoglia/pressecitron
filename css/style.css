@@ -1,0 +1,593 @@
+.error {
+  color: red;
+}
+
+.news-marquee {
+    display: block;
+
+  }
+
+    .contact-section {
+      background-color: black;;
+    color: white;
+    height: 100% ;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  text-align: center;
+
+
+    }
+
+    .navbar-brand  {
+      color: black;
+    }
+
+
+    .contact-section .row h1 {
+
+margin-bottom: 100px;
+
+
+    }
+
+    .contact-section .col-lg-12 {
+
+margin-bottom: 100px;
+
+
+    }
+.contact-section .row{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+#agenda-table {
+
+    padding:30px;
+    border:10px solid black;
+    height: 600px;
+
+    background-color:white;}
+
+    #agenda-table h3 {
+
+      margin-top: 10px;}
+
+
+    .shadow-top {
+      height: 20px;
+      position: absolute;
+      background-image: radial-gradient(farthest-side at 70% 0%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+      display: none;
+    }
+
+    .shadow-bottom {
+      height: 20px;
+      width: 100%;
+      position: absolute;
+      background-image: gradient(farthest-side at 0% 100%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+      display: none;
+    }
+
+
+
+.agenda-section .row {
+
+background-color:black;
+margin-top:50px;
+}
+
+h6{
+
+font-family: 'fengardo neue' ! !important;
+text-align: left;
+font-size: 16px;
+line-height: 1.3;
+padding-top: 10px;
+}
+strong {
+
+font-weight: bold;
+}
+.participer {
+bottom: 0px;
+right: 0px;
+position: fixed;
+z-index: 9999;
+padding-bottom: 40px;
+padding-right: 40px;
+
+
+}
+.participer .btn {
+    font-size: 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+.add-file {
+  color: orange !important;
+}
+
+@font-face {
+    font-family: 'baldinger';
+    src: url('../fonts/baldinger/baldingerproestienne-book-webfont.woff2') format('woff2'),
+         url('../fonts/baldinger/baldingerproestienne-book-webfont.woff') format('woff'),
+         url('../fonts/baldinger/baldingerproestienne-book-webfont.eot') format('eot'),
+         url('../fonts/baldinger/baldingerproestienne-book-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'baldinger';
+    src: url('../fonts/baldinger/baldingerproestienne-heavy-webfont.woff') format('woff2'),
+         url('../fonts/baldinger/baldingerproestienne-heavy-webfont.woff') format('woff'),
+         url('../fonts/baldinger/baldingerproestienne-heavy-webfont.eot') format('eot'),
+         url('../fonts/baldinger/baldingerproestienne-heavy-webfont.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'fengardo neue';
+    src: url('../fonts/fengardo/fengardoneue-regular-webfont.svg') format('svg'),
+         url('../fonts/fengardo/fengardoneue-regular-webfont.woff') format('woff'),
+         url('../fonts/fengardo/fengardoneue-regular-webfont.eot') format('eot'),
+         url('../fonts/fengardo/fengardoneue-regular-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'fengardo neue';
+    src: url('../fonts/fengardo/fengardoneue-black-webfont.woff') format('woff'),
+         url('../fonts/fengardo/fengardoneue-black-webfont.svg') format('svg'),
+         url('../fonts/fengardo/fengardoneue-black-webfont.eot') format('eot'),
+         url('../fonts/fengardo/fengardoneue-black-webfont.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+
+@media(min-width:767px) {
+
+
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background:  #35E2CF;
+
+}
+
+.fond-section {
+height: 100%;
+position: fixed;
+width: 100%;
+z-index: -9999;
+
+}
+
+
+.present-section {
+  height: 100%;
+  text-align: center;
+  background:  white;
+      padding-top: 100px;
+}
+
+#downarrow{
+  position:absolute;bottom:100px;left:1%;right:1%;margin:auto;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;transition:opacity 1s;-webkit-transition:opacity 1s}
+
+  @charset "UTF-8";
+  .animated {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both
+  }
+
+  .animated.infinite {
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite
+  }
+
+  .animated.hinge {
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s
+  }
+
+  .animated.bounceIn,
+  .animated.bounceOut,
+  .animated.flipOutX,
+  .animated.flipOutY {
+      -webkit-animation-duration: .75s;
+      animation-duration: .75s
+  }
+
+  @-webkit-keyframes "bounce" {
+      20%,
+      53%,
+      80%,
+      from,
+      to {
+          -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+          animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+      }
+      40%,
+      43% {
+          -webkit-animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          -webkit-transform: translate3d(0, -30px, 0);
+          transform: translate3d(0, -30px, 0);
+      }
+      70% {
+          -webkit-animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          -webkit-transform: translate3d(0, -15px, 0);
+          transform: translate3d(0, -15px, 0);
+      }
+      90% {
+          -webkit-transform: translate3d(0, -4px, 0);
+          transform: translate3d(0, -4px, 0);
+      }
+  }
+
+  @keyframes "bounce" {
+      20%,
+      53%,
+      80%,
+      from,
+      to {
+          -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+          animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+      }
+      40%,
+      43% {
+          -webkit-animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          -webkit-transform: translate3d(0, -30px, 0);
+          transform: translate3d(0, -30px, 0);
+      }
+      70% {
+          -webkit-animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+          -webkit-transform: translate3d(0, -15px, 0);
+          transform: translate3d(0, -15px, 0);
+      }
+      90% {
+          -webkit-transform: translate3d(0, -4px, 0);
+          transform: translate3d(0, -4px, 0);
+      }
+  }
+
+  .bounce {
+      -webkit-animation-name: bounce;
+      animation-name: bounce;
+      -webkit-transform-origin: center bottom;
+      transform-origin: center bottom
+  }
+
+.agenda-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+background: transparent;
+}
+.partenaires-section .row {
+
+
+    padding-top:150px;
+}
+
+
+.partenaires-section {
+  margin-top: 300px;
+  height: 100%;
+  text-align: center;
+    background-color: transparent;
+
+}
+.partenaires-section .col-lg-12 {
+  height: 100%;
+  text-align: center;
+    background-color: white;
+
+}
+
+
+.partenaires-section h1{
+
+  margin-top: 60px;
+
+}
+.galerie-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+    background-color: white;
+}
+
+.modal-content{
+
+z-index: 9999;
+
+}
+
+.present-section p {
+
+font-size:25px;
+}
+.present-section img {
+
+width:70%;
+}
+
+#draggable {
+
+  width: 400px; height: 400px;
+  overflow: hidden;
+  background:url("../img/tarte.gif");
+  background-size: 100% 100%;
+  background-position: center center;
+  top: 1000px;
+
+
+}
+
+#draggable.ui-draggable-dragging {
+  width: 400px; height: 400px;
+
+  -webkit-filter: drop-shadow(5px 5px 5px #111111);
+   filter:         drop-shadow(5px 5px 5px #111111);
+   background:url("../img/tarte2.gif");
+   background-size: 100% 100%;
+   background-position: center center;
+
+cursor: grabbing;
+}
+
+#partner-spacer,#gallerie-spacer{
+  background-color:orange;position:absolute;z-index:-1000;;left:0px}
+.partner{background-color:transparent;transition:position .2s ease-in-out;display:inline-block;max-width:100px;height:55px;margin:15px 25px}
+#partner-page{background-color:;padding:50px 0px;text-align:center;padding-bottom:30px}
+#partner-page p{margin-top:10px;margin-bottom:0px}
+.partner img{display:inline-block;vertical-align:middle;max-width:100%;max-height:100%}
+.arriere-plan-partenaires{background-color:orange;}
+h1 {
+  line-height: 1.2em;
+}
+.tarte {
+z-index: 9998;
+  position: fixed;
+ cursor:grab;
+ margin-top: 100px;
+top:-1000px; left:500px;
+
+}
+
+
+
+
+h1, h2, h3, h4, p{
+
+font-family: 'fengardo neue' ! !important;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}navbar
+
+.carousel-control {
+color: orange;
+}
+
+.navbar {
+  border-color: blue;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+#x {
+  margin-left: -300px;
+  background-color: black;
+overflow: hidden;
+    height: 100%;
+    position: relative;
+    float: none;
+
+}
+
+#x .icon {
+    position: absolute;
+
+}
+p {
+
+  font-style: normal;
+      font-family: 'fengardo neue' !important;
+      font-weight: normal;
+}
+
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-color: black;
+
+
+}
+.navbar {
+    font-family: 'fengardo neue', sans-serif;
+    text-transform: uppercase;
+background-color: white;
+border: none;
+color: black;
+
+letter-spacing: 0.3px;
+
+}
+
+.navbar-default .navbar-nav li a {
+
+  color: black;
+  font-size:16px;
+}
+.btn{
+  border-radius: 0px;
+  font-family: 'fengardo neue';
+  text-transform: uppercase;
+  background-color: #ffaB20;
+  margin: 3px;
+  color: black;
+  font-weight: bold;
+  border: 0px;
+
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+line-height: 20px;
+}
+a{
+  color: #ffaB20;
+}
+a:hover{
+  color: #35E2CF;
+  text-decoration: none;
+}
+marquee {
+  background-color: white;
+  bottom: 0px;
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 9999;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 25px;
+  padding-top: 10px;
+  font-family: 'fengardo neue', sans-serif;
+color: black;
+
+}
+marquee:hover{
+background-color:#35E2CF;
+}
+.btn:hover{
+
+  background-color: #35E2CF;
+  border: none;
+  color:black;
+
+}
+h1, h2, h3, h4, h5 {
+font-family: 'fengardo neue', sans-serif !important;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.calendrier-dates {
+
+text-transform: uppercase;
+line-height: 30px;
+color : #35E2CF;
+font-size: 20px;
+
+
+}
+
+.calendrier-dates .numero {
+
+text-transform: uppercase;
+font-size: 40px;
+color : #35E2CF;
+font-weight: bold;
+font-family: oswald;
+
+}
+
+.calendrier-dates .numero2 {
+
+text-transform: uppercase;
+font-size: 30px;
+color : #35E2CF;
+font-weight: bold;
+font-family: oswald;
+}
+
+.formulaire {
+  position: fixed;
+     top: 0;
+     left: 0;
+text-align: center;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border-color: black;
+
+
+}
+.table {
+margin-top:20px; margin-bottom:20px;
+}
+
+
+body {
+
+      font-family: 'fengardo neue';
+
+}
+.navbar-default {
+    border-color: none;
+
+}
+
+
+h1 {
+font-family: 'Oswald', sans-serif;
+text-transform:uppercase;
+}
+.intro-section {
+
+  background-color: transparent;
+
+}
+
+.credit {
+
+  text-align: center;
+bottom: 0;
+color: green;
+
+}

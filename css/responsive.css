@@ -1,0 +1,68 @@
+
+  .news-marquee { display: none ;  }
+
+.agenda-section {
+  height: auto;
+
+}
+
+.bordel {
+
+  display: none;
+}
+#agenda-table {
+
+    overflow: visible;
+    height: auto;
+    border: none;
+    border-bottom: 10px solid black;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+overflow-x: hidden;
+}
+
+.partenaires-section {
+  height: auto;
+}
+.partenaires-section .row {
+
+
+    padding-top:0px;
+}
+
+  .news-marquee {
+    display: none;
+  }
+  .tarte {
+
+      display: none;
+  }
+
+.present-section {
+padding-top: 20px;
+padding-bottom: 20px;
+height: auto;
+}
+
+.present-section p {
+
+font-size:20px;
+}
+
+.present-section img {
+
+width:80%;
+}
+.contact-section  {
+
+height: auto;
+}
+.partenaires-section {
+
+  margin-top: 100px;
+}

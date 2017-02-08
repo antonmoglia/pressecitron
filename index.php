@@ -214,17 +214,12 @@
 
     </section>
 
-
-
-
-
-
-
-
-
-
-    <!-- jQuery -->
+    <!-- jQuery, local ou fourni par le cdn jquery -->
     <script src="js/jquery.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+
+    <!-- jQuery Ui -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -238,13 +233,6 @@
     <script src="js/additional-methods.js"></script>
     <script src="js/upload.js"></script>
 
-
-    <style>
-
-
-    </style>
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
     $( function() {
       $( "#draggable" ).draggable();;

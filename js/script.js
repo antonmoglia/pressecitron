@@ -72,7 +72,7 @@ var nbDone = 0; // initialisation of nb files already uploaded during the proces
 		//	count.textContent = 'Files done: '+nbDone+' ; '+'Files left: '+nb;
 
 			var nextFile = list.shift();
-			if (nextFile.size >= 20000000) { // 20Mb = generally the max file size on PHP hosts
+			if (nextFile.size >= 1000000) { // 20Mb = generally the max file size on PHP hosts
 				result.innerHTML += '<div class="f">Fichier trop volumineux. (5 Mo max)</div>';
 				uploadNext();
 			} else {

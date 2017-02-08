@@ -214,7 +214,7 @@
 
     </section>
 
-    <!-- jQuery, local ou fourni par le cdn jquery -->
+    1000000 jQuery, local ou fourni par le cdn jquery -->
     <script src="js/jquery.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
 
@@ -227,7 +227,7 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <!-- uplaod -->
+    <!-- Upload -->
 
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/additional-methods.js"></script>

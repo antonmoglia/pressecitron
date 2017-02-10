@@ -29,6 +29,13 @@ $(document).ready(function(){
     }
   });
 
+  $.validator.addMethod('filesize', function(value, element, param) {
+    // param = size (in bytes)
+    // element = element to validate (<input>)
+    // value = value of the element (file name)
+    return this.optional(element) || (element.files[0].size <= param)
+});
+
   $("form[name='apply']").validate({
       // Specify validation rules
       rules: {
@@ -49,34 +56,44 @@ $(document).ready(function(){
         },
         file1: {
           required: true,
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file2: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file3: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file4: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file5: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file6: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file7: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file8: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file9: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         },
         file10: {
-          extension: "jpg|png|jpeg"
+          extension: "jpg|png|jpeg",
+          filesize : 1048576
         }
       },
       // Specify validation error messages
@@ -90,16 +107,16 @@ $(document).ready(function(){
           minlength: "Au moins 10 chiffres!"
         },
         email: "Un e-mail valide",
-        file1: "jpg ou png, 1.5M max",
-        file2: "jpg ou png, 1.5M max",
-        file3: "jpg ou png, 1.5M max",
-        file4: "jpg ou png, 1.5M max",
-        file5: "jpg ou png, 1.5M max",
-        file6: "jpg ou png, 1.5M max",
-        file7: "jpg ou png, 1.5M max",
-        file8: "jpg ou png, 1.5M max",
-        file9: "jpg ou png, 1.5M max",
-        file10: "jpg ou png, 1.5M max"
+        file1: "jpg ou png, 1M max",
+        file2: "jpg ou png, 1M max",
+        file3: "jpg ou png, 1M max",
+        file4: "jpg ou png, 1M max",
+        file5: "jpg ou png, 1M max",
+        file6: "jpg ou png, 1M max",
+        file7: "jpg ou png, 1M max",
+        file8: "jpg ou png, 1M max",
+        file9: "jpg ou png, 1M max",
+        file10: "jpg ou png, 1M max"
       },
       // Make sure the form is submitted to the destination defined
       // in the "action" attribute of the form when valid

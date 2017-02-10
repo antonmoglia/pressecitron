@@ -37,7 +37,7 @@ for ($i = 1; $i <= 10; $i++) {
   $filesize = $_FILES["file".$i]["size"];
   $allowed_file_types = array('.png','.jpg','.jpeg');
 
-  if ( $filename != "" && in_array(strtolower($file_ext),$allowed_file_types) && ($filesize < 3500000))
+  if ( $filename != "" && in_array(strtolower($file_ext),$allowed_file_types) && ($filesize < 1000000))
   {
     // Rename file
     $newfilename = $file_basename . $file_ext;
